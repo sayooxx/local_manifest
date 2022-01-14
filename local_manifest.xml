@@ -11,7 +11,7 @@
                 fetch="https://github.com/kdrag0n" />
                     
 
-        <project path="device/xiaomi/sweet" name="android_device_xiaomi_sweet" remote="sayooxx" revision="a12" />
+        <project path="device/xiaomi/sweet" name="android_device_xiaomi_sweet" remote="sayooxx" revision="12" />
         <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="sayooxx" revision="elixir" />
         <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sweet" remote="aj" revision="12" />
         
