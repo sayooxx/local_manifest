@@ -3,15 +3,13 @@
 
         <remote name="sayooxx"
                 fetch="https://github.com/sayooxx" />
-        <remote name="aj"
-                fetch="https://github.com/ajitlenka30" />
         <remote name="xrp"
                 fetch="https://github.com/itsxrp" />
         <remote  name="clang"
                 fetch="https://github.com/kdrag0n" />
                     
 
-        <project path="device/xiaomi/sweet" name="android_device_xiaomi_sweet" remote="sayooxx" revision="12" />
+        <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="sayooxx" revision="snow" />
         <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="sayooxx" revision="elixir" />
         <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sweet" remote="aj" revision="12" />
         
