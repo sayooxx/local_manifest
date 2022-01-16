@@ -7,9 +7,7 @@
                 fetch="https://github.com/ajitlenka30" />
         <remote  name="clang"
                 fetch="https://github.com/kdrag0n" />
-        <remote name="xrp"
-                fetch="https://github.com/itsxrp" />
-                    
+        
 
         <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="sayooxx" revision="snow" />
         <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="sayooxx" revision="elixir" />
