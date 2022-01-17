@@ -19,8 +19,8 @@
         <remove-project name="android_hardware_qcom_display" />
         <remove-project name="android_hardware_qcom_media" />
         
-        <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" remote="sayooxx" revision="arrow-12.0-caf-sm8150" />
-        <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" remote="sayooxx" revision="arrow-12.0-caf-sm8150" />
-        <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="sayooxx" revision="arrow-12.0-caf-sm8150" />
+        <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" remote="sayooxx" revision="arrow-12.0-caf-sm8150" />
+        <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="sayooxx" revision="arrow-12.0-caf-sm8150" />
+        <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="sayooxx" revision="arrow-12.0-caf-sm8150" />
         
 </manifest>
