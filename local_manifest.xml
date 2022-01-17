@@ -3,13 +3,11 @@
 
         <remote name="sayooxx"
                 fetch="https://github.com/sayooxx" />
-        <remote name="xrp"
-                fetch="https://github.com/itsxrp" />
         <remote  name="clang"
                 fetch="https://github.com/kdrag0n" />
                     
 
-        <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="sayooxx" revision="snow" />
+        <project path="device/xiaomi/sweet" name="S_device_xiaomi_sweet" remote="sayooxx" revision="snow" />
         <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="sayooxx" revision="elixir" />
         <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sweet" remote="aj" revision="12" />
         
@@ -19,9 +17,9 @@
         <remove-project name="android_hardware_qcom_display" />
         <remove-project name="android_hardware_qcom_media" />
         
-        <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" remote="xrp" revision="arrow-12.0-caf-sm8150" />
-        <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" remote="xrp" revision="arrow-12.0-caf-sm8150" />
-        <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="xrp" revision="arrow-12.0-caf-sm8150" />
+        <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" remote="sayooxx" revision="arrow-12.0-caf-sm8150" />
+        <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" remote="sayooxx" revision="arrow-12.0-caf-sm8150" />
+        <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="sayooxx" revision="arrow-12.0-caf-sm8150" />
         
 
 </manifest>
