@@ -15,10 +15,7 @@
         
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" />
         
-        <remove-project name="hardware/qcom-caf/sm8150/audio" />
-        <remove-project name="hardware/qcom-caf/sm8150/display" />
-        <remove-project name="hardware/qcom-caf/sm8150/media" />
-        
+     
         <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" remote="sayooxx" revision="twelve" />
         <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="sayooxx" revision="twelve" />
         <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="sayooxx" revision="twelve" />
