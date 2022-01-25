@@ -15,5 +15,13 @@
         <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sweet" remote="aj" revision="12" />
         
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" />
+        
+        <remove-project name="android_hardware_qcom_audio" />
+        <remove-project name="android_hardware_qcom_display" />
+        <remove-project name="android_hardware_qcom_media" />
+
+        <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" remote="sayooxx" revision="arrow-12.0-caf-sm8150" />
+        <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" remote="sayooxx" revision="arrow-12.0-caf-sm8150" />
+        <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="sayooxx" revision="arrow-12.0-caf-sm8150" />
        
 </manifest>
